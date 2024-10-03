@@ -1,0 +1,61 @@
+body{
+    background-color: #222;
+    color: white;
+    background-image: url(/images/index-BG.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+@font-face {
+    font-family: 'PerfectDark';
+    src: url('/fonts/pdark.woff2') format('woff2'),
+         url('/fonts/pdark.woff') format('woff'),
+         url('/fonts/pdark.ttf') format('truetype'),
+         url('/fonts/pdark.eot') format('embedded-opentype'),
+         url('/fonts/pdark.svg') format('svg');
+}
+
+
+.textbox-html{
+    margin: 30px auto;
+    display: block;
+    position: relative;
+    padding-top: 100px;
+    width: 80%;
+    height: 350px;
+    background-color: hsla(0, 0%, 20%, 0.8);
+    text-align: center;
+    border-radius: 50px;
+}
+
+.textbox-about{
+    margin: 90px auto;
+    display: block;
+    position: relative;
+    padding-top: 40px;
+    width: 80%;
+    height: 730px;
+    background-color: hsla(0, 0%, 20%, 0.8);
+    border-radius: 50px;
+}
+
+.textbox-html h1{
+    margin: 0 auto;
+    font-family: PerfectDark;
+    font-size: 50px;
+}
+
+.textbox-about h2{
+    margin-left: 35px;
+}
+
+.textbox-about form{
+    margin-left: 35px;
+}
+
+.textarea-about {
+    height: 100px;
+    width: 400px;
+    resize: none;
+}
