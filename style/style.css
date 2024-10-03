@@ -1,7 +1,7 @@
 body{
     background-color: #222;
     color: white;
-    background-image: url(/images/index-BG.jpg);
+    background-image: url(https://zenius-i-vanisher.com/pictures/1650366949.5953.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -9,11 +9,11 @@ body{
 
 @font-face {
     font-family: 'PerfectDark';
-    src: url('/fonts/pdark.woff2') format('woff2'),
-         url('/fonts/pdark.woff') format('woff'),
-         url('/fonts/pdark.ttf') format('truetype'),
-         url('/fonts/pdark.eot') format('embedded-opentype'),
-         url('/fonts/pdark.svg') format('svg');
+    src: url('/pdark.woff2') format('woff2'),
+         url('/pdark.woff') format('woff'),
+         url('/pdark.ttf') format('truetype'),
+         url('/pdark.eot') format('embedded-opentype'),
+         url('/pdark.svg') format('svg');
 }
 
 
