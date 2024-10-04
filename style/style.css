@@ -78,3 +78,14 @@ body{
     background-color: hsla(0, 0%, 20%, 0.8);
     border-radius: 50px;
 }
+
+.textbox-setups {
+    margin: 90px auto;
+    display: block;
+    position: relative;
+    padding-top: 40px;
+    width: 80%;
+    height: 300px;
+    background-color: hsla(0, 0%, 20%, 0.8);
+    border-radius: 50px;
+}
