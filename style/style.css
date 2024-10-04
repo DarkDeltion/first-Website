@@ -7,16 +7,6 @@ body{
 }
 
 
-@font-face {
-    font-family: 'PerfectDark';
-    src: url('/pdark.woff2') format('woff2'),
-         url('/pdark.woff') format('woff'),
-         url('/pdark.ttf') format('truetype'),
-         url('/pdark.eot') format('embedded-opentype'),
-         url('/pdark.svg') format('svg');
-}
-
-
 .textbox-html{
     margin: 30px auto;
     display: block;
