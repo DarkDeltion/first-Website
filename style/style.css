@@ -65,10 +65,9 @@ body{
     margin: 0 auto;
     font-family: pdark;
     font-size: 50px;
-}
+}   
 
-
-.textbox-resources {
+.textbox-setups {
     margin: 90px auto;
     display: block;
     position: relative;
@@ -79,13 +78,14 @@ body{
     border-radius: 50px;
 }
 
-.textbox-setups {
-    margin: 90px auto;
+.resources-box {
+    margin: 50px auto;
     display: block;
     position: relative;
-    padding-top: 40px;
+    padding-top: 100px;
     width: 80%;
-    height: 300px;
+    height: 350px;
     background-color: hsla(0, 0%, 20%, 0.8);
+    text-align: center;
     border-radius: 50px;
 }

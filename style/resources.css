@@ -119,3 +119,39 @@ footer a:hover {
 body {
     padding-bottom: 60px;
 }
+
+
+.container {
+    display: flex;
+}
+
+.a-side {
+    width: 250px; 
+    background-color: hsla(0, 0%, 10%, 0.8);
+    padding: 20px;  
+    margin-left: 50px;
+    border-radius: 20px;
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+
+.button-resources {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    background-color: hsla(0, 0%, 10%, 0.8);
+    border-radius: 5px;
+    background-color: hsla(0, 0%, 40%, 0.8);    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+}
+
+.button-resources:hover {
+    color: #ffffff;
+    background-color: hsla(0, 0%, 60%, 0.8);
+    border-radius: 5px;
+}
