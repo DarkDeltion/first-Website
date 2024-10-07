@@ -20,11 +20,11 @@ html, body {
 
 
 .left {
-    margin-left: 5px    ; /* Ensure no margin on the left */
+    margin-left: 5px;
 }
 
 .right {
-    margin-right: 30px; /* Ensure no margin on the right */
+    margin-right: 30px; 
 }
 
 li a {
@@ -73,12 +73,12 @@ nav {
 }
 
 footer {
-    position: absolute;
-    bottom: -400px;
+    bottom: 0;
     width: 100%;
-    background-color: #333; 
-    padding: 10px; 
+    background-color: #333;
+    padding: 10px;
     text-align: center;
+    z-index: 1000;
 }
 
 footer ul {
@@ -87,17 +87,25 @@ footer ul {
     padding: 0;
     display: flex;
     justify-content: space-between;
+    align-items: center; 
 }
 
 footer li {
-    margin-right: 20px;
+    margin-right: 30px;
 }
 
 footer a {
     text-decoration: none;
     color: #ffffff;
+    padding: 10px 20px;
+    background-color: #444;
+    border-radius: 5px;
+    border: 1px solid #555;
 }
 
 footer a:hover {
-    color: #666;
+    color: #ffffff;
+    background-color: #666;
+    border-radius: 5px;
 }
+
