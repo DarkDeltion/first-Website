@@ -164,6 +164,14 @@ body {
 
 
 
+.resources-hidden {
+    display: none; 
+    position: absolute;
+    z-index: 100; 
+}
+
+
+
 .resources-div {
     position: relative; /* Position relative to place the dropdown absolutely */
 }
@@ -174,9 +182,48 @@ body {
 
 
 .box {
-    width: 267px;       
-    height: 250px;       
-    background-color: #111;  
+    width: 267px;
+    height: 140px;
+    background-color: #111;
     margin-top: 10px;
     border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+ 
+  .setuplink {
+    display: block;        /* Make it a block element */
+    width: 225px;         /* Same width as footer links */
+    height: 50px;         /* Same height as footer links */
+    background-color: #666; /* Background color */
+    color: white;         /* Text color */
+    text-align: center;   /* Center the text */
+    line-height: 50px;    /* Center text vertically */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px;   /* Rounded corners */
+    border: 1px solid #555; /* Border color */
+    margin: auto;         /* Center it horizontally */
+    margin-bottom: 25px;
+}
+
+.setuplink:hover {
+    background-color: #444; /* Change background on hover */
+}
+
+.controllerlink {
+    display: block;        /* Make it a block element */
+    width: 225px;         /* Same width as footer links */
+    height: 50px;         /* Same height as footer links */
+    background-color: #666; /* Background color */
+    color: white;         /* Text color */
+    text-align: center;   /* Center the text */
+    line-height: 50px;    /* Center text vertically */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px;   /* Rounded corners */
+    border: 1px solid #555; /* Border color */
+    margin: auto;         /* Center it horizontally */
+}
+
+.controllerlink:hover {
+    background-color: #444; /* Change background on hover */
 }
