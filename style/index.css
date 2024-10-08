@@ -145,3 +145,28 @@ body {
     list-style-type: none;
     padding-left: 0;
 }
+
+.resources-hidden {
+    display: none; 
+    position: absolute;
+    z-index: 100; 
+}
+
+
+
+.resources-div {
+    position: relative; /* Position relative to place the dropdown absolutely */
+}
+
+.resources-div:hover .resources-hidden {
+    display: block; /* Show dropdown on hover */
+}
+
+
+.box {
+    width: 267px;       
+    height: 250px;       
+    background-color: #111;  
+    margin-top: 10px;
+    border-radius: 20px;
+}

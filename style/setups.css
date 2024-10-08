@@ -126,7 +126,7 @@ body {
 }
 
 .a-side {
-    width: 250px; 
+    width: 200px; 
     background-color: hsla(0, 0%, 10%, 0.8);
     padding: 20px;  
     margin-left: 50px;
@@ -155,4 +155,29 @@ body {
     color: #ffffff;
     background-color: hsla(0, 0%, 60%, 0.8);
     border-radius: 5px;
+}
+
+.resources-hidden {
+    display: none; 
+    position: absolute;
+    z-index: 100; 
+}
+
+
+
+.resources-div {
+    position: relative; /* Position relative to place the dropdown absolutely */
+}
+
+.resources-div:hover .resources-hidden {
+    display: block; /* Show dropdown on hover */
+}
+
+
+.box {
+    width: 267px;       
+    height: 250px;       
+    background-color: #111;  
+    margin-top: 10px;
+    border-radius: 20px;
 }
