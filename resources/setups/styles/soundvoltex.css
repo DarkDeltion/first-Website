@@ -128,10 +128,13 @@ body {
 .a-side {
     width: 250px; 
     background-color: hsla(0, 0%, 10%, 0.8);
-    padding: 20px;  
-    margin-left: 50px;
+    padding: 20px;
+    margin-left: 25px;
     border-radius: 20px;
+    height: 175px;
+    position: fixed;
 }
+
 
 .main-content {
     flex-grow: 1;
@@ -226,4 +229,12 @@ body {
 
 .controllerlink:hover {
     background-color: #444; /* Change background on hover */
+}
+
+.main-content p {
+    font-size: 18px
+}
+
+.main-content{
+    margin-left: 225px;
 }
