@@ -8,10 +8,6 @@ html, body {
 }
 
 
-.content-wrapper {
-    flex: 1;
-}
-
 ul {
     list-style-type: none;
     padding: 10px;
