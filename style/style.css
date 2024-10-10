@@ -115,3 +115,67 @@ body{
     border-radius: 50px;
     margin-top: 75px;
 }
+
+.chunithm-box {
+    margin: 50px auto;
+    display: block;
+    position: relative;
+    padding-top: 100px;
+    width: 80%;
+    height: 325px;
+    background-color: hsla(0, 0%, 20%, 0.8);
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 75px;
+}
+.maimai-box {
+    margin: 50px auto;
+    display: block;
+    position: relative;
+    padding-top: 100px;
+    width: 80%;
+    height: 250px;
+    background-color: hsla(0, 0%, 20%, 0.8);
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 75px;
+}
+
+.soundvoltex-box {
+    margin: 50px auto;
+    display: block;
+    position: relative;
+    padding-top: 100px;
+    width: 80%;
+    height: 500px;
+    background-color: hsla(0, 0%, 20%, 0.8);
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 75px;
+}
+
+.chuni-box {
+    margin: 50px auto;
+    display: block;
+    position: relative;
+    padding-top: 100px;
+    width: 80%;
+    height: 250px;
+    background-color: hsla(0, 0%, 20%, 0.8);
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 75px;
+}
+
+.mai-box {
+    margin: 50px auto;
+    display: block;
+    position: relative;
+    padding-top: 100px;
+    width: 80%;
+    height: 225px;
+    background-color: hsla(0, 0%, 20%, 0.8);
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 75px;
+}

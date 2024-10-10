@@ -135,11 +135,12 @@ body {
     position: fixed;
     padding-left: 100px;
     margin-top: -100px;
-  }
+}
 
 .main-content {
     flex-grow: 1;
     padding: 20px;
+    margin-top: -100px;
 }
 
 

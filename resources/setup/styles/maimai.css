@@ -137,6 +137,7 @@ body {
     margin-top: -100px;
   }
 
+
 .main-content {
     flex-grow: 1;
     padding: 20px;
@@ -230,4 +231,13 @@ body {
 
 .controllerlink:hover {
     background-color: #444; /* Change background on hover */
+}
+
+.main-content p {
+    font-size: 18px
+}
+
+.main-content{
+    margin-left: 225px;
+    margin-top: -75px;
 }
