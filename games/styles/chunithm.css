@@ -1,0 +1,326 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+
+.content-wrapper {
+    flex: 1;
+}
+
+ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    display: flex;
+    justify-content: space-between; 
+    background-color: #333;
+    width: 100%;
+}
+
+.left, .right {
+    display: flex;
+}
+
+.left {
+    margin-left: 5px;
+}
+
+.right {
+    margin-right: 30px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 100px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+    border-radius: 20px;
+}
+
+nav {
+    padding: 20px;
+}
+
+.logoimg {
+    margin-top: -70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
+
+.logoimg img {
+    width: 500px;
+    z-index: 3;
+}
+
+.circle {
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    width: 850px;
+    height: 300px;
+    background-color: #333;
+    border-radius: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    z-index: -1;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+    z-index: 1000;
+}
+
+footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer li {
+    margin-right: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    background-color: #444;
+    border-radius: 5px;
+    border: 1px solid #555;
+}
+
+footer a:hover {
+    color: #ffffff;
+    background-color: #666;
+    border-radius: 5px;
+}
+
+body {
+    padding-bottom: 60px;
+}
+
+
+.container {
+    display: flex;
+}
+
+.a-side {
+    width: 250px;
+    background-color: hsla(0, 0%, 15%, 1);
+    padding: 20px;
+    margin-left: -200px;
+    border-radius: 20px;
+    height: 175px;
+    position: fixed;
+    padding-left: 100px;
+    margin-top: -100px;
+  }
+
+.main-content {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+
+.button-resources {
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px 20px;
+    background-color: hsla(0, 0%, 10%, 0.8);
+    border-radius: 5px;
+    background-color: hsla(0, 0%, 40%, 0.8);    margin-bottom: 10px;
+    display: block;
+    text-align: center;
+}
+
+.button-resources:hover {
+    color: #ffffff;
+    background-color: hsla(0, 0%, 60%, 0.8);
+    border-radius: 5px;
+}
+
+.resources-hidden {
+    display: none; 
+    position: absolute;
+    z-index: 100; 
+}
+
+
+
+.resources-hidden {
+    display: none; 
+    position: absolute;
+    z-index: 100; 
+}
+
+
+
+.resources-div {
+    position: relative; /* Position relative to place the dropdown absolutely */
+}
+
+.resources-div:hover .resources-hidden {
+    display: block; /* Show dropdown on hover */
+}
+
+
+.box {
+    width: 267px;
+    height: 140px;
+    background-color: #111;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+ 
+  .setuplink {
+    display: block;        /* Make it a block element */
+    width: 225px;         /* Same width as footer links */
+    height: 50px;         /* Same height as footer links */
+    background-color: #666; /* Background color */
+    color: white;         /* Text color */
+    text-align: center;   /* Center the text */
+    line-height: 50px;    /* Center text vertically */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px;   /* Rounded corners */
+    border: 1px solid #555; /* Border color */
+    margin: auto;         /* Center it horizontally */
+    margin-bottom: 25px;
+}
+
+.setuplink:hover {
+    background-color: #444; /* Change background on hover */
+}
+
+.controllerlink {
+    display: block;        /* Make it a block element */
+    width: 225px;         /* Same width as footer links */
+    height: 50px;         /* Same height as footer links */
+    background-color: #666; /* Background color */
+    color: white;         /* Text color */
+    text-align: center;   /* Center the text */
+    line-height: 50px;    /* Center text vertically */
+    text-decoration: none; /* Remove underline */
+    border-radius: 5px;   /* Rounded corners */
+    border: 1px solid #555; /* Border color */
+    margin: auto;         /* Center it horizontally */
+}
+
+.controllerlink:hover {
+    background-color: #444; /* Change background on hover */
+}
+
+.sdvxsettings {
+    margin: auto;
+    width:60%;
+}
+
+/* modal image */
+
+ /* Style the Image Used to Trigger the Modal */
+ #myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1100; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (Image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 100%;
+    max-width: 80%;
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+} 
+
+
+.settingsasc{
+    width: 60%;
+    margin: auto;
+}
