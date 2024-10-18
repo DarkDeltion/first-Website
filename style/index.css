@@ -115,12 +115,12 @@ footer a:hover {
     border-radius: 5px;
 }
 
-/* Prevent footer overlap */
+
 body {
     padding-bottom: 60px;
 }
 
-/* Resources-specific styles */
+
 .resources-side {
     float: left;
     width: 22.5%;
@@ -156,11 +156,11 @@ body {
 
 
 .resources-div {
-    position: relative; /* Position relative to place the dropdown absolutely */
+    position: relative;
 }
 
 .resources-div:hover .resources-hidden {
-    display: block; /* Show dropdown on hover */
+    display: block; 
 }
 
 

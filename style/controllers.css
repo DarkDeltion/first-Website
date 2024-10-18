@@ -172,11 +172,11 @@ body {
 
 
 .resources-div {
-    position: relative; /* Position relative to place the dropdown absolutely */
+    position: relative; 
 }
 
 .resources-div:hover .resources-hidden {
-    display: block; /* Show dropdown on hover */
+    display: block; 
 }
 
 
@@ -191,38 +191,38 @@ body {
   }
  
   .setuplink {
-    display: block;        /* Make it a block element */
-    width: 225px;         /* Same width as footer links */
-    height: 50px;         /* Same height as footer links */
-    background-color: #666; /* Background color */
-    color: white;         /* Text color */
-    text-align: center;   /* Center the text */
-    line-height: 50px;    /* Center text vertically */
-    text-decoration: none; /* Remove underline */
-    border-radius: 5px;   /* Rounded corners */
-    border: 1px solid #555; /* Border color */
-    margin: auto;         /* Center it horizontally */
+    display: block;        
+    width: 225px;         
+    height: 50px;         
+    background-color: #666;
+    color: white;      
+    text-align: center; 
+    line-height: 50px;  
+    text-decoration: none; 
+    border-radius: 5px;  
+    border: 1px solid #555; 
+    margin: auto;        
     margin-bottom: 25px;
 }
 
 .setuplink:hover {
-    background-color: #444; /* Change background on hover */
+    background-color: #444;
 }
 
 .controllerlink {
-    display: block;        /* Make it a block element */
-    width: 225px;         /* Same width as footer links */
-    height: 50px;         /* Same height as footer links */
-    background-color: #666; /* Background color */
-    color: white;         /* Text color */
-    text-align: center;   /* Center the text */
-    line-height: 50px;    /* Center text vertically */
-    text-decoration: none; /* Remove underline */
-    border-radius: 5px;   /* Rounded corners */
-    border: 1px solid #555; /* Border color */
-    margin: auto;         /* Center it horizontally */
+    display: block;        
+    width: 225px;        
+    height: 50px;       
+    background-color: #666;
+    color: white;      
+    text-align: center;   
+    line-height: 50px;    
+    text-decoration: none;
+    border-radius: 5px;   
+    border: 1px solid #555; 
+    margin: auto;       
 }
 
 .controllerlink:hover {
-    background-color: #444; /* Change background on hover */
+    background-color: #444;
 }

@@ -120,7 +120,6 @@ body {
     background-color: hsla(0, 0%, 20%, 0.8);
     text-align: center;
     border-radius: 50px;
-    margin-top: 75px;
 }
 
 .chunithm-box {
@@ -133,7 +132,7 @@ body {
     background-color: hsla(0, 0%, 20%, 0.8);
     text-align: center;
     border-radius: 50px;
-    margin-top: 75px;
+    margin-bottom: 200px;
 }
 .maimai-box {
     margin: 50px auto;
@@ -145,7 +144,7 @@ body {
     background-color: hsla(0, 0%, 20%, 0.8);
     text-align: center;
     border-radius: 50px;
-    margin-top: 75px;
+    margin-bottom: 200px;
 }
 
 .soundvoltex-box {
