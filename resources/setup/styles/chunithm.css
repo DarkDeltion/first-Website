@@ -63,19 +63,19 @@ nav {
 .logoimg img {
     width: 500px;
     z-index: 3;
-}
+    margin-right: -230px;
+    margin-top: -160px;
+  }
 
-.circle {
-    position: absolute;
-    top: 0px;
-    left: 50%;
+.circle-logo {
+    position: sticky;
     width: 850px;
     height: 300px;
     background-color: #333;
     border-radius: 50%;
     transform: translate(-50%, -50%);
-    pointer-events: none;
     z-index: -1;
+    margin-right: -40%;
 }
 
 footer {
